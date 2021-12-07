@@ -96,8 +96,7 @@ public class TiInappupdateModule extends KrollModule implements TiActivityResult
                     if (appUpdateInfo.updateAvailability()
                             == UpdateAvailability.DEVELOPER_TRIGGERED_UPDATE_IN_PROGRESS) {
 
-                        KrollDict kd = new KrollDict();
-                        fireEvent("resume", kd);
+                        fireEvent("resume", new KrollDict());
 
                         try {
                         // If an in-app update is already running, resume the update.
