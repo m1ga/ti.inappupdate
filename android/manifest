@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 4
+architectures: arm64-v8a armeabi-v7a x86 x86_64
+description: ti.inappupdate
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2021 by Your Company
+
+# these should not be edited
+name: ti.inappupdate
+moduleid: ti.inappupdate
+guid: 0058635f-d8c0-4143-9dd1-eee3a5ed87c2
+platform: android
+minsdk: 9.0.0
