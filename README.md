@@ -2,6 +2,9 @@
 
 <img src="assets/immediate_flow.png"/>
 
+## Example
+
+To test it make sure to read: https://developer.android.com/guide/playcore/in-app-updates/test
 
 ```js
 var inappUpdate = require("ti.inappupdate");
