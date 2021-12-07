@@ -1,3 +1,8 @@
+# Android in-app update for Appcelerator Titanium
+
+<img src="assets/immediate_flow.png"/>
+
+
 ```js
 var inappUpdate = require("ti.inappupdate");
 
