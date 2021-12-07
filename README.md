@@ -9,7 +9,7 @@ inappUpdate.addEventListener("update", function(e) {
 });
 inappUpdate.checkForUpdate();
 
-$.index.addEventListener("resume", function(){
+Ti.App.addEventListener("resume", function(){
   inappUpdate.resumeUpdate();
 })
 
