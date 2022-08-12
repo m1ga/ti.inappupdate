@@ -1,4 +1,4 @@
-# Android in-app update for Appcelerator Titanium
+# Android in-app update for Titanium
 
 <img src="assets/immediate_flow.png"/>
 
